@@ -18,6 +18,13 @@ The [docs](https://reseam.app/docs/authoring/start/) walk through this template 
 ## Patches
 
 <!-- patches:start -->
+
+### `com.steinberg.cubasisle3` 3.8.6
+
+| Patch | What it does |
+|---|---|
+| Unlock everything | Unlock all in-app purchases, including the full feature set. One visit in the in-app store is necessary for the unlock to happen. |
+
 <!-- patches:end -->
 
 ## Setup
