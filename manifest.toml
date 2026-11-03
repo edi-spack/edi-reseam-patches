@@ -1,0 +1,5 @@
+[bundle]
+name = "edi-reseam-patches"
+author = "Eduard Späck"
+description = "Edi's custom android app patches for Reseam"
+format_version = 1
