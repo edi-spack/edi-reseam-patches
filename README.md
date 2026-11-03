@@ -1,3 +1,5 @@
+[![Add to Reseam](.github/assets/add-to-reseam.svg)](https://reseam.app/add/?url=https%3A%2F%2Fgithub.com%2Fedi-spack%2Fedi-reseam-patches)
+
 <p align="center">
   <img src="https://reseam.app/logo.svg" alt="Reseam logo" width="96">
 </p>
