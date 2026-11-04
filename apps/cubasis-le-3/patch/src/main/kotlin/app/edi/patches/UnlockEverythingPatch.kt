@@ -47,7 +47,7 @@ val unlockEverything = patch("Unlock everything") {
         val shopReceivedPricesBridgeMethod = shopReceivedPricesBridge.method
 
         shopReceivedPricesBridge.after {
-            thisObject.call(shopPurchasedProducts, param(1), bool(true))
+            thisObject.call(shopPurchasedProducts, param(1), bool(false))
         }
     }
 
@@ -75,7 +75,7 @@ val unlockEverything = patch("Unlock everything") {
         shopReceivedPricesBridgeMethod.insertInstructions(
             returnInstructionIndex,
             buildInstructions {
-                constInt(boolReg, 1)
+                constInt(boolReg, 0)
                 invokeDirect(
                     owner = "Lcom/steinberg/cubasisle3/AndroidActivity;",
                     name = "shopPurchasedProducts",

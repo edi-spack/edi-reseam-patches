@@ -12,7 +12,7 @@ pluginManagement {
 }
 
 plugins {
-    id("app.reseam.workspace") version "0.36.0"
+    id("app.reseam.workspace") version "0.37.1"
     id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
 }
 
