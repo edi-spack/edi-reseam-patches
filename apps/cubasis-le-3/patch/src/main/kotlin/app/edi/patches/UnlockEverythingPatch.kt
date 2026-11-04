@@ -47,7 +47,7 @@ val unlockEverything = patch("Unlock everything") {
         val shopReceivedPricesBridgeMethod = shopReceivedPricesBridge.method
 
         shopReceivedPricesBridge.after {
-            thisObject.call(shopPurchasedProducts, param(1), bool(false))
+            param(0).call(shopPurchasedProducts, param(1), bool(false))
         }
     }
 
